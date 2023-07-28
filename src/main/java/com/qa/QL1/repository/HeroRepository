@@ -1,0 +1,6 @@
+package com.qa.QL1.repository;
+import com.qa.QL1.model.Hero;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HeroRepository extends JpaRepository<Hero, Integer> {
+}
